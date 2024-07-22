@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Char Değişkenler", "C# Char Değişkenler.csproj", "{B060EE74-A530-4E24-9D61-42DA2F82AB63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B060EE74-A530-4E24-9D61-42DA2F82AB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B060EE74-A530-4E24-9D61-42DA2F82AB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B060EE74-A530-4E24-9D61-42DA2F82AB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B060EE74-A530-4E24-9D61-42DA2F82AB63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAE922B7-975C-4965-AA16-56D7724CD453}
+	EndGlobalSection
+EndGlobal

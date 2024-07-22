@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int carpim, counter;
+            carpim = 1;
+            for (counter = 0; counter <= 12; counter++)
+            {
+                carpim = carpim * counter;
+                if ((counter % 2) == 0)    // counter çift sayı ise
+                {
+                    continue;		// atla
+                }
+                else            // değilse,
+                {
+                    carpim = carpim * counter;  // çarpmaya devam
+                }
+            }
+           Console.WriteLine(carpim.ToString());
+
+        }
+    }
+}
