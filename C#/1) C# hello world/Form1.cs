@@ -1,8 +1,8 @@
-/* Form tasarımı üzerinde değişiklik yapmak için sağ tuş+özellikler ile
- arka plan rengi için backcolor ,
- yazı tipi için font,text ile adını ve daha birçok şeyi değiştirebiliriz */
+/* Form tasarÄ±mÄ± Ã¼zerinde deÄŸiÅŸiklik yapmak iÃ§in saÄŸ tuÅŸ+Ã¶zellikler ile
+ arka plan rengi iÃ§in backcolor ,
+ yazÄ± tipi iÃ§in font,text ile adÄ±nÄ± ve daha birÃ§ok ÅŸeyi deÄŸiÅŸtirebiliriz */
 
-namespace C__hello_world   //namespace projenin adını belirtir 
+namespace C__hello_world   //namespace projenin adÄ±nÄ± belirtir 
 {
     public partial class Form1 : Form
     {
@@ -18,7 +18,7 @@ namespace C__hello_world   //namespace projenin adını belirtir
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Merhaba Dünya");  // mesajı show(göster) ile yazıyoruz
+            MessageBox.Show("Merhaba DÃ¼nya");  // mesajÄ± show(gÃ¶ster) ile yazÄ±yoruz
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace C__hello_world   //namespace projenin adını belirtir
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label7.Text = "Furkiş";
+            label7.Text = "Furkan";
             label8.Text = "Yorgun";
             label9.Text = "Computer Engineer";
 
@@ -41,12 +41,12 @@ namespace C__hello_world   //namespace projenin adını belirtir
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // textBox1.Text = "Yazılım Mühendisliği";
-            // textbox kutusu dışarıdan scanf gibi yazmayı sağlar ama istersek buradan da yazabiliriz
-            label11.Text = textBox1.Text;  // label 11 orada kaybolmadı texbox içine aktarıldı ve yazılan değeri aldı
+            // textBox1.Text = "YazÄ±lÄ±m MÃ¼hendisliÄŸi";
+            // textbox kutusu dÄ±ÅŸarÄ±dan scanf gibi yazmayÄ± saÄŸlar ama istersek buradan da yazabiliriz
+            label11.Text = textBox1.Text;  // label 11 orada kaybolmadÄ± texbox iÃ§ine aktarÄ±ldÄ± ve yazÄ±lan deÄŸeri aldÄ±
         }
     }
 }
 
-// eger ki bir komutun sol tarafında mor küp sembolü varsa o komutun sonunda mutlaka parantez açılıp kapanır 
-// onun bir metod olduğunu bilir 
+// eger ki bir komutun sol tarafÄ±nda mor kÃ¼p sembolÃ¼ varsa o komutun sonunda mutlaka parantez aÃ§Ä±lÄ±p kapanÄ±r 
+// onun bir metod olduÄŸunu bilir 
