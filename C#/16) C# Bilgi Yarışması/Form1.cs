@@ -27,57 +27,57 @@ namespace C__Bilgi_Yarışması
 
             if (soru_no == 1)
             {
-                richTextBox1.Text = "Bana ilk çıkma teklifi ettiğin gün nedir <3 <3 ?";
-                button1.Text = "1 Aralık";
-                button2.Text = "24 Ekim";
-                button3.Text = "3 Kasım";
-                button4.Text = "14 Aralık";
-                label8.Text = "3 Kasım";
+                richTextBox1.Text = "Hasbihal, ne demektir?";
+                button1.Text = "Gürültü";
+                button2.Text = "Geçmiş";
+                button3.Text = "Sohbet";
+                button4.Text = "Özlem";
+                label8.Text = "Sohbet";
                 button5.Text = "Sıradaki";
             }
 
 
             if (soru_no == 2)
             {
-                richTextBox1.Text = "Annemin gençlik soyadı nedir :):) ?";
-                button1.Text = "Ergenç";
-                button2.Text = "Günsur";
-                button3.Text = "Demir";
-                button4.Text = "Sıgırta";
-                label8.Text = "Ergenç";
+                richTextBox1.Text = ""Azı dişi" hangisinin eş anlamlısıdır?";
+                button1.Text = "Öğütücü diş";
+                button2.Text = "Sindirici diş";
+                button3.Text = "Koparıcı diş";
+                button4.Text = "Kesici diş";
+                label8.Text = "Öğütücü diş";
             }
 
 
             if (soru_no == 3)
             {
-                richTextBox1.Text = "Sevgili olduğumuz gün nedir :o :o ?";
-                button1.Text = "1 Ocak";
-                button2.Text = "12 Şubat";
-                button3.Text = "27 Şubat";
-                button4.Text = "17 Mart";
-                label8.Text = "17 Mart";
+                richTextBox1.Text = ""Mavi, lacivert, mor ve bu renklerin tonları" hangisinin sözlük tanımıdır?";
+                button1.Text = "Sıcak renkler";
+                button2.Text = " Ilık renkler";
+                button3.Text = "Serin renkler";
+                button4.Text = "Soğuk renkler";
+                label8.Text = "Soğuk renkler";
             }
 
 
             if (soru_no == 4)
             {
-                richTextBox1.Text = "Benim en sevdiğim renk ;) ?";
-                button1.Text = "Mor";
-                button2.Text = "Siyah";
-                button3.Text = "Kırmızı";
-                button4.Text = "Sarı";
-                label8.Text = "Hepsi";
+                richTextBox1.Text = "Türkiye'nin nüfusu en az olan bölgesi hangisidir?";
+                button1.Text = "Karadeniz Bölgesi";
+                button2.Text = " Ege Bölgesi";
+                button3.Text = "Doğu Anadolu Bölgesi";
+                button4.Text = "Güneydoğu Anadolu Bölgesi";
+                label8.Text = "Doğu Anadolu Bölgesi";
             }
 
 
             if (soru_no == 5)
             {
-                richTextBox1.Text = "Benimle tanıştığın ilk gün hangi renk şal örtmüştüm ^-^ ?";
-                button1.Text = " Lacivert";
-                button2.Text = "Kahverengi";
-                button3.Text = "Siyah";
-                button4.Text = "Pembe";
-                label8.Text = "Kahverengi";
+                richTextBox1.Text = "Mars atmosferinde en fazla bulunan gaz hangisidir?";
+                button1.Text = " Hidrojen";
+                button2.Text = "Azot";
+                button3.Text = "Karbondioksit";
+                button4.Text = "Oksijen";
+                label8.Text = "Azot";
                 button5.Text = "Sonuçlar";
             }
             if (soru_no == 6)
@@ -89,14 +89,11 @@ namespace C__Bilgi_Yarışması
 
                 if (doğru < yanlış)
                 {
-                    label10.Text = "Sevgilinizi tanımıyorsunuz size yazıklar olsun." + " \n" +
-                        " Hemen bir çikolata alarak gönlünü alın!!";
+                    label10.Text = "Kaybettiniz!";
                 }
                 else
                 {
-                    label10.Text = "Tebrikler sevgilinizi tanıyorsunuz." + " \n" +
-                        "Ama bu ona çikolata almayacağınız anlamına gelmez" + " \n" +
-                        "Onu her an mutlu edin :)";
+                    label10.Text = "Tebrikler, Kazandınız!";
                 }
 
             }
